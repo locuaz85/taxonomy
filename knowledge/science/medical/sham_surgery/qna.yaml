@@ -1,0 +1,26 @@
+created_by: Daniel Acuna
+domain: medical
+seed_examples:
+- answer: It is a faked surgical intervention that omits the step thought to be therapeutically 	necessary.
+ question: What is sham surgery?
+
+- answer: In 1939 
+	
+ question: When was internal mammary introduce?s?
+
+- answer: Moseley
+	
+ question: Who studied arthroscopic surgery?
+
+- answer: This is because it isolates the specific effects of the treatment as opposed to the 		incidental effects caused by anesthesia, the incisional trauma, pre- and postoperative 		care, and the patient's perception of having had a regular operation. Thus sham surgery 	serves an analogous purpose to placebo drugs, neutralizing biases such as the placebo 		effect.
+ question: Why is sham surgery important?
+
+- answer: 2016 study
+ question: When was it discovered that arthroscopic partial meniscectomy does not offer benefit??
+
+task_description: ' '
+document: 
+ repo: https://github.com/juliadenham/Summit_knowledge
+ commit: bf398f8882946f83dbf4ef40a883e21949397b24
+ patterns:
+   - sham_surgery.md
